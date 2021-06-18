@@ -1,0 +1,158 @@
+html{
+    box-sizing: border-box;
+}
+
+* ::after ::before{
+    box-sizing: border-box;
+}
+
+
+
+.header{
+    width: auto;
+    display: flex;
+    align-items: center;
+    padding: 20px 70px 20px;
+}
+.header-title{
+    flex: 1;
+    font-size: 20px;
+}
+.header-lists{
+    flex: 2;
+
+}
+.header ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    font-size: 7px;
+}
+.header ul li{
+    margin: 0 20px ;
+}
+
+
+
+
+.img-panel{
+    width: auto;
+    background-image: url("img/main-vsual-nontitle.png");
+    background-size: cover;
+    padding: 50px 60px 50px;
+}
+.img-panel-text1{
+    display: table-cell;
+    font-size: 20px;
+    text-align: center;
+    vertical-align: middle;
+    margin: 15px;
+    line-height: 25px;
+}
+.img-panel-text2{
+    display: table-cell;
+    font-size: 8px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 13px;
+}
+.img-panel-text{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.maintext{
+    width: auto;
+    padding: 20px 100px 20px;
+}
+
+
+.main-text1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-text1 h1{
+    font-size: 25px;
+    margin: 25px;
+}
+.main-text1-1{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+.main-text1-1 span{
+    margin: 10px;
+    font-size: 8px;
+    line-height: 13px;
+}
+.main-text2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+.main-text2 h1{
+    font-size: 25px;
+    margin: 25px;
+}
+.main-text2-1{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+.main-text2-1 li{
+    margin: 10px;
+    width: auto;
+}
+.main-text2-1 span{
+    font-size: 5px;
+}
+.main-text2-1 li img{
+    max-width: 100%;
+    height: auto;
+}
+
+footer{
+    width: auto;
+}
+
+.footer-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.footer-footer h1{
+    font-size: 25px;
+    margin: 20px;
+}
+.footer-footer p{
+    font-size: 8px;
+}
+.footer-submit{
+    font-size: 10px;
+    color: pink;
+}
+
+.button 
+{
+  border-radius : 5%;          /* 角丸       */
+  font-size     : 13pt;        /* 文字サイズ */
+  text-align    : center;      /* 文字位置   */
+  cursor        : pointer;     /* カーソル   */
+  padding       : 24px 100px;   /* 余白       */
+  background    : #ff7f7f;     /* 背景色     */
+  color         : #ffffff;     /* 文字色     */
+  line-height   : 1em;         /* 1行の高さ  */
+  transition    : .3s;         /* なめらか変化 */
+  box-shadow    : 6px 6px 3px #666666;  /* 影の設定 */
+  border        : 2px solid #ff7f7f;    /* 枠の指定 */
+  margin: 20px;
+}
+.button:hover {
+  box-shadow    : none;        /* カーソル時の影消去 */
+  color         : #ff7f7f;     /* 背景色     */
+  background    : #ffffff;     /* 文字色     */
+}
